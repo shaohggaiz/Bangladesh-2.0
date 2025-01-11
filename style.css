@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 85%;
+    margin: auto;
+}
+.header {
+    padding: 10px;
+}
+nav {
+    padding: 20px 8px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button {
+    color: green;
+    border: 1px solid rgba(0, 128, 0, 0.767);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: transparent;
+    cursor: pointer;
+    transition: all .22s ease;
+}
+nav button:hover {
+    background-color: rgba(0, 128, 0, 0.658);
+    border: 1px solid rgba(0, 128, 0, 0.658);
+    color: #fff;
+}
+
+/* --------- navbar end ----------- */
+
+.banner-items {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #00800049;
+}
+.banner-bd {
+    font-weight: bold;
+    color: rgba(117, 93, 93, 0.4);
+}
+
+.banner-description {
+    font-size: 55px;
+    padding: 20px 0;
+}
+.banner-image img {
+    width: 450px;
+}
+.banner-btn {
+    padding: 12px 25px;
+    font-size: 19px;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(22, 197, 22, 0.89);
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.22s ease;
+}
+.banner-btn:hover {
+    transform: scale(0.95);
+
+}
+
+/* --------- bannner end ----------- */
+
+.pillars h1 {
+    margin: 50px 0;
+    font-size: 33px;
+}
+.pillars-items {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.light-pillars {
+    background-color: aliceblue;
+    border: 1px solid #0000002c;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.22s ease;
+}
+.light-pillars:hover {
+    border: 1px solid #00000054;
+    background-color: rgb(221, 237, 250);
+}
+.light-pillars * {
+    padding: 8px;
+}
+
+/* --------- pillars end ----------- */
+
+.digital-vision {
+    display: flex;
+    gap: 20px;
+}
+.ision-description {
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.digital {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.digital * {
+    padding: 8px;
+    color: rgb(65, 58, 58);
+}
+.mixred {
+    background-color: #0303ff33;
+    border: 1px solid #0000ff4b;
+}
+.mixgray {
+    background-color: #00800057;
+}
+.mixblue {
+    background-color: #ffff003b;
+}
+.bleubtn {
+    background-color: rgba(0, 0, 255, 0.808);
+}
+.greenbtn {
+    background-color: rgba(0, 128, 0, 0.76);
+}
+.yellbtn {
+    background-color: rgba(255, 255, 0, 0.76);
+}
+.digital-btn {
+    margin-top: 8px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: all .24s ease;
+}
+.digital-btn:hover {
+    transform: scale(1.1);
+}
+
+/* --------- digital end ----------- */
+
+.muhammad-yunns {
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    background-image: url('B11A1--assignment-1/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 44px 16px;
+    background-color: rgba(226, 226, 226, 0.192);
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.dr-yuns {
+    margin-top: 10px;
+}
+.dr-yuns * {
+    padding: 2px 0;
+}
+
+/* ---------- muhammad-yunns end ----------- */
+
+.star-cast {
+    margin-top: 50px;
+    padding: 10px 0;
+    font-size: 32px;
+}
+.star-Description {
+    margin-bottom: 50px;
+
+}
+.satellite-card {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 35px;
+    background-color: rgb(209, 245, 231);
+    padding: 20px;
+    border-radius: 20px;
+}
+.satell-img img {
+    border-radius: 20px;
+}
+.card-sattellite h1 {
+    padding-bottom: 10px;
+    font-size: 33px;
+}
+.card-sattellite p {
+    padding: 20px 0;
+}
+.spans {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+.card-sattellite button {
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: green;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all .25s ease; 
+}
+.card-sattellite button:hover {
+    transform: scale(0.96);
+}
+
+/* ---------- card-sattellite end ----------- */
+
+.donate-end-section {
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-end-section h2, p {
+    padding: 10px;
+}
+.taka {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+.taka h1 {
+    color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background-color: rgba(17, 194, 47, 0.849);
+}
+.taka h1:hover {
+    background-color: rgba(17, 194, 47, 0.973);
+}
+.input-one {
+    display: block;
+    width: 100%;
+    font-size: 19px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(223, 217, 217, 0.521);
+    padding: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.donate-end-section button {
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: green;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all .25s ease; 
+}
+.donate-end-section button:hover {
+    transform: scale(0.96);
+}
+
+/* ---------- donate-end-section end ----------- */
+
+footer {
+    margin-top: 50px;
+    background-color: rgba(13, 216, 13, 0.281);
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbscribe h1{
+    font-size: 36px;
+    padding: 10px;
+}
+.foot input {
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+.foot button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-inline: 30px;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+.foot input, button {
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    margin: 15px 0;
+}
+/* ---------- last-p end ----------- */
+.last-p {
+    margin: 50px;
+    text-align: center;
+    position: relative;
+}
