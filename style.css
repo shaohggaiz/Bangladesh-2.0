@@ -155,7 +155,7 @@ nav button:hover {
 
 .muhammad-yunns {
     border: 1px solid rgba(0, 0, 0, 0.527);
-    background-image: url('B11A1--assignment-1/assets/quote-bg.png');
+    background-image: url('assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: 44px 16px;
     background-color: rgba(226, 226, 226, 0.192);
@@ -311,6 +311,9 @@ footer {
     border: none;
     padding: 15px;
     margin: 15px 0;
+}
+.gray-color {
+    color: rgb(128, 128, 128);
 }
 /* ---------- last-p end ----------- */
 .last-p {
